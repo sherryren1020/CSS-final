@@ -1,0 +1,234 @@
+    @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+    /* whole pages */
+    
+    body {
+        font-family: 'Libre Baskerville', serif !important;
+        background-image: url("topography.svg");
+        background-repeat: repeat;
+    }
+    
+    
+    
+    
+    ul {
+        list-style: none;
+        padding: 0 !important;
+    }
+    
+    
+    
+   
+    
+    .info-container {
+        width: 100%;
+        background-color: white;
+    }
+    /* for Home page */
+    
+    .info-container {
+        display: block;
+        background-color: #FFFAF0;
+        border-radius: 20px;
+        height: 35rem;
+        width: 70rem;
+        margin-left: 230px;
+        margin-top: 90px;
+    }
+    
+    .info-container {
+        overflow: auto;
+        height: auto;
+        position: relative;
+    }
+    
+    #self {
+        width: 350px;
+        height: 430px;
+        display: flex;
+        float: right;
+        margin-right: 35px;
+        padding-top: 10px;
+    }
+    
+    .self_intro {
+        margin-top: 60px;
+        text-align: left;
+        font-family: "East Sea Dokdo";
+        font-size: 28px;
+    }
+    
+    #welcome {
+        font-family: "East Sea Dokdo";
+        font-size: 35px;
+        float: left;
+        width: 20%;
+    }
+    /* For Goals page */
+    .goals{
+        font-family: 'Libre Baskerville', serif;
+    }
+    /* For Skills page */
+    
+    .progress {
+        margin: 60px;
+        height: auto;
+       
+    }
+
+    .progress-container1, .progress-container2{
+        height: 15rem;
+        background-color: #FFFAF0;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+    .skillsTxt {
+        padding-top: 15px;
+        font-family: 'Libre Baskerville', serif;
+        font-size: x-large;
+        background-color: #FFFAF0;
+        height: auto;
+        width: 100%;
+       
+
+    }
+    .resume-info{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+  
+    /* For contact page full page*/
+    
+    .contact-info1 {
+        height: auto;
+        overflow: auto;
+        background-color: #FFFAF0;
+        float: left;
+        width: 50%;
+        font-family: "East Sea Dokdo";
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .contact-info2 {
+        background-color: #FFFAF0;
+        float: left;
+        width: 50%;
+        height: 35rem;
+        font-family: "East Sea Dokdo";
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .contact-img {
+        background-image: url("lets-connect.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        position: relative;
+    }
+    
+    .container-contactinfo label:active {
+        color: aquamarine;
+    }
+    
+    .sHighlights li {
+        list-style: none
+    }
+
+
+
+    .dropdown{
+        display: none;
+    }
+
+    .btn-outline-dark{
+        margin: 10px;
+        display: flex;
+        width: 25% !important;
+
+    }
+    /* under 768 100% */
+    
+    @media screen and (max-width:767px) {
+        .dropdown{
+            display: inline-block;
+            position: relative;
+            
+        }
+        header .navbar{
+            display: none;
+        }
+
+        .nav-item{
+            font-size: x-small;
+        }
+        
+        .info-container {
+            width: 90%;
+            margin: 10px;
+        }
+        .btn-outline-dark{
+            width: 40% !important;
+            font-size: 5px;
+        }
+        
+
+        #self,
+        #welcome {
+            display: none;
+        }
+        /* For contact page  ,under 768*/
+        .contactinfo2 {
+            background-color: black;
+            margin-top: 570px;
+            margin-right: 20px;
+            margin-left: 20px;
+            width: auto;
+            min-width: 500px;
+            clear: both;
+            float: left;
+            display: block;
+            position: relative;
+            overflow: auto;
+        }
+        .contactinfo1 {
+            /* margin-top:570px; */
+            margin-right: 20px;
+            margin-left: 20px;
+            top: 570px;
+            left: 20px;
+            min-width: 500px;
+            overflow: auto;
+            float: left;
+            width: 100%;
+        }
+    }
+    /* above 768  */
+    
+    @media screen and (max-width:768px) {
+        .info-container {
+            margin: auto;
+            width: 750px;
+            height: 750px;
+            overflow: auto;
+        }
+        
+    }
+    /* under 992  */
+    
+    @media screen and (min-width:992px) {
+        .info-container {
+            width: 970px;
+            margin: auto;
+            overflow: auto;
+        }
+    }
+    /* under 992  */
+    
+    @media screen and (min-width:1200px) {
+        .info-container {
+            width: 1170px;
+        }
+    }

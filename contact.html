@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="page.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <title>contact info</title>
+</head>
+
+<body>
+    <header>
+        <ul class="navbar navbar-light justify-content-center" style="background-color: #d4d8dc66;">
+            <li class="nav-item ">
+                <a class="nav-link active" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="goals.html">Goals</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+        </ul>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="home.html">Home</a></li>
+                <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                <li><a class="dropdown-item" href="goals.html">Goals</a></li>
+                <li><a class="dropdown-item" href="skills.html">Skills</a></li>
+                <li><a class="dropdown-item" href="resume.html">Resume</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="contact-info1 col-lg-6 col-md-6 col-sm-12 pt-5">
+                <form class="form" action="/home.html">
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="Email">E-mail:</label><br>
+                    <input type="text" id="Email" name="Email"><br>
+                    <label for="subj">Subject:</label><br>
+                    <input type="text" id="subj" name="subj"><br>
+                    <label for="msg">Message:</label><br>
+                    <input type="text" id="msg" name="msg"><br>
+                    <br>
+                    <input class="btn btn-lg btn-primary" type="submit">
+                </form>
+            </div>
+            <div class="contact-info2 col-lg-6 col-md-6 col-sm-12 contact-img pt-5">
+                <span>Tilbury Avenue, West Bedford</span><br>
+                <span>Halifax, NS</span><br>
+                <span>Tel:902-222-6683</span><br>
+                <span>E-mail:sherry.vv1020@gmail.com</span><br>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
